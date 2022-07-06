@@ -120,6 +120,6 @@
      * @return  {string}
      */
     function formatResult(item) {
-        return '@' + item.login + ' ';
+        return '{' + item.login + '} ';
     }
 })(jQuery);
